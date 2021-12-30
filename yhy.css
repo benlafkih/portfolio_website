@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 999;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.TST{
+    padding:0 40px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.7s ease;
+    color: #3a6cf4 ;
+}
+h1{
+    font-size: 3em;
+    padding-left: 100px;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    
+}
+.TST:hover{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3a6cf4;
+    border-radius: 1em;
+    color: #f0f0f0;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background still fixed
+    background-attachment: fixed;*/
+}
+.main h2 span{
+    display: inline-block;
+    color: #3a6cf4;
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+}
+.main_btn{
+    text-decoration: none;
+    border-radius: 1em;
+    background-color:#3a6cf4 ;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0.9375em 2.0875em;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+}
+.main_btn:hover{
+    background-color: rgb(0, 60, 255);
+    transform: scale(1.1);
+}
+.social_icons a{
+    color: #f0f0f0;
+    font-size: 2em;
+    padding-right: 30px;
+}
+.titel{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-weight: 800;
+    font-size: 2.2em;
+    margin-bottom: 35px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 19.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /30%);
+    border-radius: 30px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.PJ{
+    background-color: #000016;
+}
+.PJ.content{
+    margin-top: 30px;
+}
+.PJcard{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.PJcard:hover{
+    transform: scale(1.1);
+}
+.PJcard:hover .PJimg{
+    opacity: 0.9;
+}
+.PJimg img{
+    width: 100%;
+}
+.PJinfo{
+    padding: 1em;
+}
+.PJtitel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.category{
+    font-size: 0.8em;
+    color: #000;
+}
+.MR{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.MR:hover{
+    color: #003ee9;
+}
+.Contact .card{
+    padding: 18px;
+}
+.Contact .icon{
+    font-size: 6em;
+}
+.Contact h3{
+    font-weight: 700;
+    color: #000;
+}
+.Contact p{
+    font-size: 1.2em;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000016;
+    padding: 2em;
+    color: #fff;
+}
+footer p{
+    font-weight: 600;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+footer span{
+    color: #3a6cf4;
+}
